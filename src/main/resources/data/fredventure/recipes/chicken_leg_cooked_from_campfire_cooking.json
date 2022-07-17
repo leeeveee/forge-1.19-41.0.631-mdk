@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "cookingtime": 580,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "fredventure:chicken_leg_raw"
+  },
+  "result": "fredventure:chicken_leg_cooked"
+}

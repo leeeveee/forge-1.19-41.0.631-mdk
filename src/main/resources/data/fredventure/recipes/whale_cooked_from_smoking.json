@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "cookingtime": 150,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "fredventure:whale_raw"
+  },
+  "result": "fredventure:whale_cooked"
+}

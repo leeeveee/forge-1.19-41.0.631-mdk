@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "cookingtime": 650,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "fredventure:whale_raw"
+  },
+  "result": "fredventure:whale_cooked"
+}

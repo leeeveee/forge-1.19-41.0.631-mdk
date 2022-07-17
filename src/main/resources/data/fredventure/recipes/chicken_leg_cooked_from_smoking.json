@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "cookingtime": 80,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "fredventure:chicken_leg_raw"
+  },
+  "result": "fredventure:chicken_leg_cooked"
+}
