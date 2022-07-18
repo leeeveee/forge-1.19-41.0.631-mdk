@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "lime_planks",
+  "ingredients": [
+    {
+      "item": "minecraft:dark_oak_planks"
+
+    },
+    {
+      "item" : "minecraft:lime_dye"
+    }
+  ],
+  "result": {
+    "item": "fredventure:lime_planks"
+  }
+}

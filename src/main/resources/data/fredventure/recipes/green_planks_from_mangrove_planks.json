@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "green_planks",
+  "ingredients": [
+    {
+      "item": "minecraft:mangrove_planks"
+    },
+    {
+      "item" : "minecraft:green_dye"
+    }
+  ],
+  "result": {
+    "item": "fredventure:green_planks"
+  }
+}
