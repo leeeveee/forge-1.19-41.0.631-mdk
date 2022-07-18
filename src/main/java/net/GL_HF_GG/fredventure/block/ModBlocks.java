@@ -26,7 +26,14 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(2f)), ModCreativeModeTab.COLORFUL_BLOCKS_TAB);
     public static final RegistryObject<Block> GREEN_PLANKS = registerBlock("green_planks",
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(2f)), ModCreativeModeTab.COLORFUL_BLOCKS_TAB);
-
+    public static final RegistryObject<Block> RED_PLANKS = registerBlock("red_planks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(2f)), ModCreativeModeTab.COLORFUL_BLOCKS_TAB);
+    public static final RegistryObject<Block> PINK_PLANKS = registerBlock("pink_planks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(2f)), ModCreativeModeTab.COLORFUL_BLOCKS_TAB);
+    public static final RegistryObject<Block> YELLOW_PLANKS = registerBlock("yellow_planks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(2f)), ModCreativeModeTab.COLORFUL_BLOCKS_TAB);
+    public static final RegistryObject<Block> ORANGE_PLANKS = registerBlock("orange_planks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(2f)), ModCreativeModeTab.COLORFUL_BLOCKS_TAB);
 
 
 

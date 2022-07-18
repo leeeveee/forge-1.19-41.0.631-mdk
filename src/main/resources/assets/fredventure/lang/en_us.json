@@ -35,5 +35,9 @@
   "item.fredventure.slaim_soul" : "Slaim Soul",
   "block.fredventure.lime_planks" : "Lime Planks",
   "block.fredventure.green_planks" : "Green Planks",
+  "block.fredventure.red_planks" : "Red Planks",
+  "block.fredventure.pink_planks" : "Pink Planks",
+  "block.fredventure.yellow_planks": "Yellow Planks",
+  "block.fredventure.orange_planks": "Orange Planks",
   "ItemGroup.colorful_blocks" : "Colorful Blocks"
 }
