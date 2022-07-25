@@ -3,14 +3,14 @@
   "group": "lime_planks",
   "ingredients": [
     {
-      "item": "minecraft:birch_planks"
+      "tag": "minecraft:planks"
 
     },
     {
-      "item" : "minecraft:lime_dye"
+      "item" : "minecraft:red_dye"
     }
   ],
   "result": {
-    "item": "fredventure:lime_planks"
+    "item": "fredventure:red_planks"
   }
 }

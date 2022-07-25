@@ -3,7 +3,7 @@
   "group": "yellow_planks",
   "ingredients": [
     {
-      "item": "minecraft:dark_oak_planks"
+      "tag": "minecraft:planks"
 
     },
     {

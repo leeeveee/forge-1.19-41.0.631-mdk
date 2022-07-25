@@ -3,7 +3,7 @@
   "group": "green_planks",
   "ingredients": [
     {
-      "item": "minecraft:oak_planks"
+      "tag": "minecraft:planks"
     },
     {
       "item" : "minecraft:green_dye"

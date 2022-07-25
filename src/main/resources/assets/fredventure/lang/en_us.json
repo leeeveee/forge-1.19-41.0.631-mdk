@@ -12,6 +12,7 @@
   "item.fredventure.skelmagic_orb" : "Skelmagic Orb",
   "item.fredventure.zombie_arm" : "Zombie Arm",
   "item.fredventure.banana" : "Banana",
+  "item.fredventure.stone_crystal_extractor" : "Stone Crystal Extractor",
   "item.fredventure.salad" : "Salad",
   "item.fredventure.lettuce" : "lettuce",
   "item.fredventure.snail" : "snail",
@@ -39,5 +40,15 @@
   "block.fredventure.pink_planks" : "Pink Planks",
   "block.fredventure.yellow_planks": "Yellow Planks",
   "block.fredventure.orange_planks": "Orange Planks",
-  "ItemGroup.colorful_blocks" : "Colorful Blocks"
+  "block.fredventure.magenta_planks": "Magenta Planks",
+  "block.fredventure.gray_planks": "Gray Planks",
+  "block.fredventure.white_planks": "White Planks",
+  "block.fredventure.brown_planks": "Brown Planks",
+  "block.fredventure.blue_planks": "Blue Planks",
+  "block.fredventure.light_blue_planks": "Light Blue Planks",
+  "block.fredventure.black_planks": "Black Planks",
+  "block.fredventure.light_gray_planks": "Light Gray Planks",
+  "block.fredventure.cyan_planks": "Cyan Planks",
+  "block.fredventure.purple_planks": "Purple Planks",
+  "itemGroup.colorful_blocks" : "Colorful Blocks"
 }
