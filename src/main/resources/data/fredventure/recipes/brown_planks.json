@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "brown_planks",
+  "ingredients": [
+    {
+      "tag": "minecraft:planks"
+
+    },
+    {
+      "item" : "minecraft:brown_dye"
+    }
+  ],
+  "result": {
+    "item": "fredventure:brown_planks"
+  }
+}

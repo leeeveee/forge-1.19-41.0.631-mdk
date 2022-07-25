@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "fredventure:item/thorn_leggings_1",
+    "overlay" : "fredventure:item/thorn_leggings_2"
+  }
+}

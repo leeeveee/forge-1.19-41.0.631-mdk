@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "magenta_planks",
+  "ingredients": [
+    {
+      "tag": "minecraft:planks"
+
+    },
+    {
+      "item" : "minecraft:magenta_dye"
+    }
+  ],
+  "result": {
+    "item": "fredventure:crimson_planks"
+  }
+}
