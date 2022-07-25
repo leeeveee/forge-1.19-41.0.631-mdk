@@ -4,7 +4,9 @@ import net.GL_HF_GG.fredventure.fredventure;
 import net.GL_HF_GG.fredventure.item.costum.Stone_Crystal_Extractor;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -99,6 +101,21 @@ public class ModItems {
     public static final RegistryObject<Item> DUCK_COOKED = ITEMS.register("duck_cooked",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)
                     .food(new FoodProperties.Builder().nutrition(2).saturationMod(1.2F).build())));
+
+
+    public static final RegistryObject<Item> THORN_HELMET = ITEMS.register("thorn_helmet",
+            () -> new ArmorItem(ModArmorMaterials.THORN, EquipmentSlot.HEAD,
+                    new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> THORN_CHESTPLATE = ITEMS.register("thorn_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.THORN, EquipmentSlot.CHEST,
+                    new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> THORN_LEGGING = ITEMS.register("thorn_leggings",
+            () -> new ArmorItem(ModArmorMaterials.THORN, EquipmentSlot.LEGS,
+                    new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> THORN_BOOTS = ITEMS.register("thorn_boots",
+            () -> new ArmorItem(ModArmorMaterials.THORN, EquipmentSlot.FEET,
+                    new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
