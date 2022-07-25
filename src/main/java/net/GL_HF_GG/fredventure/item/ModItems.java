@@ -18,12 +18,13 @@ public class ModItems {
 
     public static final RegistryObject<Item> ABSORB_CRYSTAL = ITEMS.register("absorb_crystal",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)) );
+    public static final RegistryObject<Item> STONE_CRYSTAL = ITEMS.register("stone_crystal",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)) );
     public static final RegistryObject<Item> STONE_CRYSTAL_EXTRACTOR = ITEMS.register("stone_crystal_extractor",
             () -> new Stone_Crystal_Extractor(new Item.Properties().tab(CreativeModeTab.TAB_MISC).durability(100)) );
     public static final RegistryObject<Item> YETI_FUR = ITEMS.register("yeti_fur",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)) );
-    public static final RegistryObject<Item> STONE_CRYSTAL = ITEMS.register("stone_crystal",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)) );
+
     public static final RegistryObject<Item> MOLTEN_BONE = ITEMS.register("molten_bone",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)) );
     public static final RegistryObject<Item> SNOW_SHARD = ITEMS.register("snow_shard",
