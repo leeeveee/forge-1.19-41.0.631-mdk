@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:leather"
+    },
+    "X": {
+      "item": "fredventure:thorn"
+    }
+  },
+  "pattern": [
+    "X X",
+    "XXX",
+    "###"
+  ],
+  "result": {
+    "item": "fredventure:thorn_chestplate"
+  }
+}
