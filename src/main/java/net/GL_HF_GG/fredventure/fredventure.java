@@ -85,4 +85,3 @@ public class fredventure
     }
 }
 
-//dit is een test
