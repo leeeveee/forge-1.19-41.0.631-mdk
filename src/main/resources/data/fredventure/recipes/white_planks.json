@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "white_planks",
+  "ingredients": [
+    {
+      "tag": "minecraft:planks"
+
+    },
+    {
+      "item" : "minecraft:white_dye"
+    }
+  ],
+  "result": {
+    "item": "fredventure:white_planks"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "orange_planks",
+  "ingredients": [
+    {
+      "tag": "minecraft:planks"
+
+    },
+    {
+      "item" : "minecraft:orange_dye"
+    }
+  ],
+  "result": {
+    "item": "fredventure:orange_planks"
+  }
+}
