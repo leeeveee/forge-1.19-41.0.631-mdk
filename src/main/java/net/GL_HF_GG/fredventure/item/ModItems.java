@@ -23,7 +23,7 @@ public class ModItems {
     public static final RegistryObject<Item> STONE_CRYSTAL = ITEMS.register("stone_crystal",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)) );
     public static final RegistryObject<Item> STONE_CRYSTAL_EXTRACTOR = ITEMS.register("stone_crystal_extractor",
-            () -> new Stone_Crystal_Extractor(new Item.Properties().tab(CreativeModeTab.TAB_MISC).durability(100)) );
+            () -> new Stone_Crystal_Extractor(new Stone_Crystal_Extractor.Properties().tab(CreativeModeTab.TAB_MISC).durability(100)) );
     public static final RegistryObject<Item> YETI_FUR = ITEMS.register("yeti_fur",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)) );
 

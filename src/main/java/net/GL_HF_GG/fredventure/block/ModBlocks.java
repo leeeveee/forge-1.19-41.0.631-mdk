@@ -1,5 +1,6 @@
 package net.GL_HF_GG.fredventure.block;
 
+import net.GL_HF_GG.fredventure.block.costum.posion_trap_block;
 import net.GL_HF_GG.fredventure.fredventure;
 import net.GL_HF_GG.fredventure.item.ModCreativeModeTab;
 import net.GL_HF_GG.fredventure.item.ModItems;
@@ -23,6 +24,8 @@ import java.util.function.Supplier;
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, fredventure.MOD_ID);
+    public static final RegistryObject<Block> POSION_TRAP_DIRT =registerBlock("posion_trap_dirt",
+            () -> new posion_trap_block(BlockBehaviour.Properties.of(Material.DIRT).strength(1f)), CreativeModeTab.TAB_BREWING);
 
     public static final RegistryObject<Block> LIME_PLANKS = registerBlock("lime_planks",
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(2f)), ModCreativeModeTab.COLORFUL_BLOCKS_TAB);
