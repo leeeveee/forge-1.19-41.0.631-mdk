@@ -1,0 +1,11 @@
+{
+"parent": "block/cube_all",
+"textures": {
+  "west": "fredventure:block/grass_block_side",
+  "east": "fredventure:block/grass_block_side",
+  "north": "fredventure:block/grass_block_side",
+  "south": "fredventure:block/grass_block_side",
+  "down": "fredventure:block/grass_block_bottom",
+  "up": "fredventure:block/grass_block_top"
+}
+}
