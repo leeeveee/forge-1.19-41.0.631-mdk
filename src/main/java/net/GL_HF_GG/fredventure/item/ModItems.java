@@ -2,6 +2,7 @@ package net.GL_HF_GG.fredventure.item;
 
 import net.GL_HF_GG.fredventure.fredventure;
 import net.GL_HF_GG.fredventure.item.costum.Stone_Crystal_Extractor;
+import net.GL_HF_GG.fredventure.item.costum.fuelitem;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -28,7 +29,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)) );
 
     public static final RegistryObject<Item> MOLTEN_BONE = ITEMS.register("molten_bone",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)) );
+            () -> new fuelitem(new Item.Properties().tab(CreativeModeTab.TAB_MISC), 2400)  );
     public static final RegistryObject<Item> SNOW_SHARD = ITEMS.register("snow_shard",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)) );
     public static final RegistryObject<Item> DARK_SOUL = ITEMS.register("dark_soul",
