@@ -56,6 +56,10 @@
   "item.fredventure.thorn_chestplate": "Thorn Chestplate",
   "item.fredventure.thorn_leggings": "Thorn Leggings",
   "item.fredventure.thorn_boots": "Thorn Boots",
+  "item.fredventure.green_wooden_stairs" : "Wooden Green Stairs",
+  "item.fredventure.green_wooden_slab" : "Wooden Green Slab",
+  "item.fredventure.green_wooden_fence" : "Wooden Green Fence",
+  "item.fredventure.green_wooden_fence_gate" : "Wooden Green Fence Gate",
   "fredventure:Tooltip/stone_crystal_extractor" : "It is said that the nasty goblins use this tool to extract stone crystals from very deep blocks",
   "fredventure:Tooltip/poison_trap_dirt" : "Deadly seemingly dirt block"
 }
