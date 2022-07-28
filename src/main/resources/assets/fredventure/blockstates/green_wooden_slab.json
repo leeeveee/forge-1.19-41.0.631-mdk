@@ -1,13 +1,13 @@
 {
   "variants": {
     "type=bottom": {
-      "model": "minecraft:block/wooden_green_slab"
+      "model": "fredventure:block/green_wooden_slab"
     },
     "type=double": {
-      "model": "minecraft:block/wooden_green_planks"
+      "model": "fredventure:block/green_wooden_planks"
     },
     "type=top": {
-      "model": "minecraft:block/wooden_green_slab_top"
+      "model": "fredventure:block/green_wooden_slab_top"
     }
   }
 }
