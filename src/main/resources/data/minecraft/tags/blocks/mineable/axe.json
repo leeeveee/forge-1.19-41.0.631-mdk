@@ -16,6 +16,14 @@
     "fredventure:black_planks",
     "fredventure:light_gray_planks",
     "fredventure:cyan_planks",
-    "fredventure:purple_planks"
+    "fredventure:purple_planks",
+    "fredventure:green_wooden_stairs",
+    "fredventure:green_wooden_fence_gate",
+    "fredventure:green_wooden_fence",
+    "fredventure:green_wooden_slab",
+    "fredventure:red_wooden_stairs",
+    "fredventure:red_wooden_fence_gate",
+    "fredventure:red_wooden_fence",
+    "fredventure:red_wooden_slab"
   ]
 }
