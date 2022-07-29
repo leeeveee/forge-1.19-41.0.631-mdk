@@ -4,7 +4,7 @@
       "model": "fredventure:block/green_wooden_slab"
     },
     "type=double": {
-      "model": "fredventure:block/green_wooden_planks"
+      "model": "fredventure:block/green_planks"
     },
     "type=top": {
       "model": "fredventure:block/green_wooden_slab_top"

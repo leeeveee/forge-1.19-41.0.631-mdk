@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "fredventure:block/red_planks",
+    "side": "fredventure:block/red_planks",
+    "top": "fredventure:block/red_planks"
+  }
+}

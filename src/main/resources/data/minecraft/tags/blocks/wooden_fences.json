@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "fredventure:green_wooden_fence"
+    "fredventure:green_wooden_fence",
+    "fredventure:red_wooden_fence"
   ]
 }
