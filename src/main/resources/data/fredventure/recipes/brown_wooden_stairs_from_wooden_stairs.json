@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_stairs",
+  "ingredients": [
+    {
+      "tag": "minecraft:wooden_stairs"
+
+    },
+    {
+      "item" : "minecraft:brown_dye"
+    }
+  ],
+  "result": {
+    "item": "fredventure:brown_wooden_stairs"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "fredventure:block/gray_planks",
+    "side": "fredventure:block/gray_planks",
+    "top": "fredventure:block/gray_planks"
+  }
+}

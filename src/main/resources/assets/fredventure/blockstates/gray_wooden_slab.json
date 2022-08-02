@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fredventure:block/gray_wooden_slab"
+    },
+    "type=double": {
+      "model": "fredventure:block/gray_planks"
+    },
+    "type=top": {
+      "model": "fredventure:block/gray_wooden_slab_top"
+    }
+  }
+}

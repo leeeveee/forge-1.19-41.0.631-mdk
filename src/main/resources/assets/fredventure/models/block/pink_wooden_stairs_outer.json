@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "fredventure:block/pink_planks",
+    "side": "fredventure:block/pink_planks",
+    "top": "fredventure:block/pink_planks"
+  }
+}
