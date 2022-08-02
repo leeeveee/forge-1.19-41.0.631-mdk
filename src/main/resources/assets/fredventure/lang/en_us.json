@@ -80,6 +80,18 @@
   "block.fredventure.orange_wooden_slab" : "Wooden Orange Slab",
   "block.fredventure.orange_wooden_fence" : "Wooden Orange Fence",
   "block.fredventure.orange_wooden_fence_gate" : "Wooden Orange Fence Gate",
+  "block.fredventure.white_wooden_stairs" : "Wooden White Stairs",
+  "block.fredventure.white_wooden_slab" : "Wooden White Slab",
+  "block.fredventure.white_wooden_fence" : "Wooden White Fence",
+  "block.fredventure.white_wooden_fence_gate" : "Wooden White Fence Gate",
+  "block.fredventure.pink_wooden_stairs" : "Wooden Pink Stairs",
+  "block.fredventure.pink_wooden_slab" : "Wooden Pink Slab",
+  "block.fredventure.pink_wooden_fence" : "Wooden Pink Fence",
+  "block.fredventure.pink_wooden_fence_gate" : "Wooden Pink Fence Gate",
+  "block.fredventure.blue_wooden_stairs" : "Wooden Blue Stairs",
+  "block.fredventure.blue_wooden_slab" : "Wooden Blue Slab",
+  "block.fredventure.blue_wooden_fence" : "Wooden Blue Fence",
+  "block.fredventure.blue_wooden_fence_gate" : "Wooden Blue Fence Gate",
   "fredventure:Tooltip/stone_crystal_extractor" : "It is said that the nasty goblins use this tool to extract stone crystals from very deep blocks",
   "fredventure:Tooltip/poison_trap_dirt" : "Deadly seemingly dirt block"
 }
