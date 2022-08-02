@@ -3,6 +3,9 @@
   "values": [
     "fredventure:green_wooden_fence",
     "fredventure:red_wooden_fence",
-    "fredventure:black_wooden_fence"
+    "fredventure:black_wooden_fence",
+    "fredventure:brown_wooden_fence",
+    "fredventure:yellow_wooden_fence",
+    "fredventure:orange_wooden_fence"
   ]
 }

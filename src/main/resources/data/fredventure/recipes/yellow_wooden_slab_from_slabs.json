@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_slab",
+  "ingredients": [
+    {
+      "tag": "minecraft:wooden_slabs"
+
+    },
+    {
+      "item" : "minecraft:yellow_dye"
+    }
+  ],
+  "result": {
+    "item": "fredventure:yellow_wooden_slab"
+  }
+}

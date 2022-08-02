@@ -84,6 +84,32 @@ public class ModBlocks {
             () -> new FenceGateBlock( BlockBehaviour.Properties.of(Material.WOOD).strength(2f)), ModCreativeModeTab.COLORFUL_BLOCKS_TAB);
     public static final RegistryObject<Block> BLACK_WOODEN_SLAB = registerBlock("black_wooden_slab",
             () -> new SlabBlock( BlockBehaviour.Properties.of(Material.WOOD).strength(2f)), ModCreativeModeTab.COLORFUL_BLOCKS_TAB);
+    public static final RegistryObject<Block> BROWN_WOODEN_STAIRS = registerBlock("brown_wooden_stairs",
+            () -> new StairBlock(() -> GREEN_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.WOOD).strength(2f)), ModCreativeModeTab.COLORFUL_BLOCKS_TAB);
+    public static final RegistryObject<Block> BROWN_WOODEN_FENCE = registerBlock("brown_wooden_fence",
+            () -> new FenceBlock( BlockBehaviour.Properties.of(Material.WOOD).strength(2f)), ModCreativeModeTab.COLORFUL_BLOCKS_TAB);
+    public static final RegistryObject<Block> BROWN_WOODEN_FENCE_GATE = registerBlock("brown_wooden_fence_gate",
+            () -> new FenceGateBlock( BlockBehaviour.Properties.of(Material.WOOD).strength(2f)), ModCreativeModeTab.COLORFUL_BLOCKS_TAB);
+    public static final RegistryObject<Block> BROWN_WOODEN_SLAB = registerBlock("brown_wooden_slab",
+            () -> new SlabBlock( BlockBehaviour.Properties.of(Material.WOOD).strength(2f)), ModCreativeModeTab.COLORFUL_BLOCKS_TAB);
+        public static final RegistryObject<Block> YELLOW_WOODEN_STAIRS = registerBlock("yellow_wooden_stairs",
+                () -> new StairBlock(() -> GREEN_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.WOOD).strength(2f)), ModCreativeModeTab.COLORFUL_BLOCKS_TAB);
+        public static final RegistryObject<Block> YELLOW_WOODEN_FENCE = registerBlock("yellow_wooden_fence",
+                () -> new FenceBlock( BlockBehaviour.Properties.of(Material.WOOD).strength(2f)), ModCreativeModeTab.COLORFUL_BLOCKS_TAB);
+        public static final RegistryObject<Block> YELLOW_WOODEN_FENCE_GATE = registerBlock("yellow_wooden_fence_gate",
+                () -> new FenceGateBlock( BlockBehaviour.Properties.of(Material.WOOD).strength(2f)), ModCreativeModeTab.COLORFUL_BLOCKS_TAB);
+        public static final RegistryObject<Block> YELLOW_WOODEN_SLAB = registerBlock("yellow_wooden_slab",
+                () -> new SlabBlock( BlockBehaviour.Properties.of(Material.WOOD).strength(2f)), ModCreativeModeTab.COLORFUL_BLOCKS_TAB);
+
+    public static final RegistryObject<Block> ORANGE_WOODEN_STAIRS = registerBlock("orange_wooden_stairs",
+            () -> new StairBlock(() -> GREEN_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.WOOD).strength(2f)), ModCreativeModeTab.COLORFUL_BLOCKS_TAB);
+    public static final RegistryObject<Block> ORANGE_WOODEN_FENCE = registerBlock("orange_wooden_fence",
+            () -> new FenceBlock( BlockBehaviour.Properties.of(Material.WOOD).strength(2f)), ModCreativeModeTab.COLORFUL_BLOCKS_TAB);
+    public static final RegistryObject<Block> ORANGE_WOODEN_FENCE_GATE = registerBlock("orange_wooden_fence_gate",
+            () -> new FenceGateBlock( BlockBehaviour.Properties.of(Material.WOOD).strength(2f)), ModCreativeModeTab.COLORFUL_BLOCKS_TAB);
+    public static final RegistryObject<Block> ORANGE_WOODEN_SLAB = registerBlock("orange_wooden_slab",
+            () -> new SlabBlock( BlockBehaviour.Properties.of(Material.WOOD).strength(2f)), ModCreativeModeTab.COLORFUL_BLOCKS_TAB);
+
 
 
 

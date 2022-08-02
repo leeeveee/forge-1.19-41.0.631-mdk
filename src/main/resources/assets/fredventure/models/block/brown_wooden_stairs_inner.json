@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "fredventure:block/brown_planks",
+    "side": "fredventure:block/brown_planks",
+    "top": "fredventure:block/brown_planks"
+  }
+}

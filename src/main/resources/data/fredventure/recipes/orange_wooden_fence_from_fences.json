@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_fence",
+  "ingredients": [
+    {
+      "tag": "minecraft:wooden_fences"
+
+    },
+    {
+      "item" : "minecraft:orange_dye"
+    }
+  ],
+  "result": {
+    "item": "fredventure:orange_wooden_fence"
+  }
+}
