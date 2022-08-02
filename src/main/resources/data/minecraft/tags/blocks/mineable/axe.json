@@ -48,6 +48,18 @@
     "fredventure:blue_wooden_stairs",
     "fredventure:blue_wooden_fence_gate",
     "fredventure:blue_wooden_fence",
-    "fredventure:blue_wooden_slab"
+    "fredventure:blue_wooden_slab",
+    "fredventure:cyan_wooden_slab",
+    "fredventure:cyan_wooden_stairs",
+    "fredventure:cyan_wooden_fence_gate",
+    "fredventure:cyan_wooden_fence",
+    "fredventure:gray_wooden_slab",
+    "fredventure:gray_wooden_stairs",
+    "fredventure:gray_wooden_fence_gate",
+    "fredventure:gray_wooden_fence",
+    "fredventure:light_blue_wooden_slab",
+    "fredventure:light_blue_wooden_stairs",
+    "fredventure:light_blue_wooden_fence_gate",
+    "fredventure:light_blue_wooden_fence"
   ]
 }
