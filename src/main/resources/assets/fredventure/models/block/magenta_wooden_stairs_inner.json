@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "fredventure:block/magenta_planks",
+    "side": "fredventure:block/magenta_planks",
+    "top": "fredventure:block/magenta_planks"
+  }
+}
