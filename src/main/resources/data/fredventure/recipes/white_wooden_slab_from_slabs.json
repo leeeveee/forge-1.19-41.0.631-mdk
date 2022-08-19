@@ -1,16 +1,21 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "group": "wooden_slab",
-  "ingredients": [
-    {
-      "tag": "minecraft:wooden_slabs"
-
+  "key": {
+    "#": {
+      "item": "minecraft:white_dye"
     },
-    {
-      "item" : "minecraft:white_dye"
+    "W": {
+      "tag": "minecraft:wooden_slabs"
     }
+  },
+  "pattern": [
+    "WWW",
+    "W#W",
+    "WWW"
   ],
   "result": {
+    "count": 8,
     "item": "fredventure:white_wooden_slab"
   }
 }

@@ -191,6 +191,14 @@ public class ModBlocks {
             () -> new FenceGateBlock( BlockBehaviour.Properties.of(Material.WOOD).strength(2f)), ModCreativeModeTab.COLORFUL_BLOCKS_TAB);
     public static final RegistryObject<Block> MAGENTA_WOODEN_SLAB = registerBlock("magenta_wooden_slab",
             () -> new SlabBlock( BlockBehaviour.Properties.of(Material.WOOD).strength(2f)), ModCreativeModeTab.COLORFUL_BLOCKS_TAB);
+    public static final RegistryObject<Block> MAGENTA_WOODEN_BUTTON= registerBlock("magenta_wooden_button",
+            () -> new WoodButtonBlock( BlockBehaviour.Properties.of(Material.WOOD).strength(2f)), ModCreativeModeTab.COLORFUL_BLOCKS_TAB);
+    public static final RegistryObject<Block> MAGENTA_WOODEN_PRESSURE_PLATE = registerBlock("magenta_wooden_pressure_plate",
+            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.of(Material.WOOD).strength(2f)), ModCreativeModeTab.COLORFUL_BLOCKS_TAB);
+    public static final RegistryObject<Block> MAGENTA_WOODEN_DOOR = registerBlock("magenta_wooden_door",
+            () -> new DoorBlock( BlockBehaviour.Properties.of(Material.WOOD).strength(2f).noCollission()), ModCreativeModeTab.COLORFUL_BLOCKS_TAB);
+    public static final RegistryObject<Block> MAGENTA_WOODEN_TRAPDOOR = registerBlock("magenta_wooden_trapdoor",
+            () -> new TrapDoorBlock( BlockBehaviour.Properties.of(Material.WOOD).strength(2f).noCollission()), ModCreativeModeTab.COLORFUL_BLOCKS_TAB);
 
 
 

@@ -1,16 +1,21 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "group": "black_planks",
-  "ingredients": [
-    {
-      "tag": "minecraft:planks"
-
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_planks",
+  "key": {
+    "#": {
+      "item": "minecraft:black_dye"
     },
-    {
-      "item" : "minecraft:black_dye"
+    "W": {
+      "tag": "minecraft:planks"
     }
+  },
+  "pattern": [
+    "WWW",
+    "W#W",
+    "WWW"
   ],
   "result": {
+    "count": 8,
     "item": "fredventure:black_planks"
   }
 }
