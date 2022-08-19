@@ -1,16 +1,21 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "group": "wooden_fence",
-  "ingredients": [
-    {
-      "tag": "minecraft:wooden_fences"
-
+  "key": {
+    "#": {
+      "item": "minecraft:light_gray_dye"
     },
-    {
-      "item" : "minecraft:light_gray_dye"
+    "W": {
+      "tag": "minecraft:wooden_fences"
     }
+  },
+  "pattern": [
+    "WWW",
+    "W#W",
+    "WWW"
   ],
   "result": {
+    "count": 8,
     "item": "fredventure:light_gray_wooden_fence"
   }
 }

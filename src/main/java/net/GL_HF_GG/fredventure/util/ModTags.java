@@ -13,11 +13,13 @@ public class ModTags {
     public static class Blocks {
 
     public static final TagKey<Block> WOODEN_FENCE_GATE = tag("wooden_fence_gate");
+        public static final TagKey<Block> PLANKS = forgeTag("planks", "mineable/planks");
     public static  TagKey<Block> tag(String name){
         return BlockTags.create(new ResourceLocation(fredventure.MOD_ID, name));
     }
-    public static TagKey<Block> forgeTag(String name){
-        return BlockTags.create(new ResourceLocation("forge", name));
+
+    public static TagKey<Block> forgeTag(String name, String ResourceLocation){
+        return BlockTags.create(new ResourceLocation(ResourceLocation, name));
     }
     }
     public static class Items{

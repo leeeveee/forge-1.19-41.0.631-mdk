@@ -1,16 +1,21 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "group": "wooden_fence_gate",
-  "ingredients": [
-    {
-      "tag": "fredventure:wooden_fence_gate"
-
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_fence",
+  "key": {
+    "#": {
+      "item": "minecraft:green_dye"
     },
-    {
-      "item" : "minecraft:green_dye"
+    "W": {
+      "tag": "fredventure:wooden_fence_gate"
     }
+  },
+  "pattern": [
+    "WWW",
+    "W#W",
+    "WWW"
   ],
   "result": {
+    "count": 8,
     "item": "fredventure:green_wooden_fence_gate"
   }
 }
