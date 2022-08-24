@@ -1,21 +1,21 @@
 {
   "replace": false,
   "values": [
-    "fredventure:green_wooden_slab",
-    "fredventure:red_wooden_slab",
-    "fredventure:black_wooden_slab",
-    "fredventure:brown_wooden_slab",
-    "fredventure:yellow_wooden_slab",
-    "fredventure:orange_wooden_slab",
-    "fredventure:white_wooden_slab",
-    "fredventure:pink_wooden_slab",
-    "fredventure:blue_wooden_slab",
-    "fredventure:cyan_wooden_slab",
-    "fredventure:gray_wooden_slab",
-    "fredventure:light_blue_wooden_slab",
-    "fredventure:light_gray_wooden_slab",
-    "fredventure:lime_wooden_slab",
-    "fredventure:purple_wooden_slab",
-    "fredventure:magenta_wooden_slab"
+    "#fredventure:green_wooden_slab",
+    "#fredventure:red_wooden_slab",
+    "#fredventure:black_wooden_slab",
+    "#fredventure:brown_wooden_slab",
+    "#fredventure:yellow_wooden_slab",
+    "#fredventure:orange_wooden_slab",
+    "#fredventure:white_wooden_slab",
+    "#fredventure:pink_wooden_slab",
+    "#fredventure:blue_wooden_slab",
+    "#fredventure:cyan_wooden_slab",
+    "#fredventure:gray_wooden_slab",
+    "#fredventure:light_blue_wooden_slab",
+    "#fredventure:light_gray_wooden_slab",
+    "#fredventure:lime_wooden_slab",
+    "#fredventure:purple_wooden_slab",
+    "#fredventure:magenta_wooden_slab"
   ]
 }
