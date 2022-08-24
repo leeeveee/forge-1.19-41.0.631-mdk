@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "powered=false": { "model": "fredventure:block/magenta_wooden_pressure_plate" },
+    "powered=true": { "model": "fredventure:block/magenta_wooden_pressure_plate_down" }
+  }
+}

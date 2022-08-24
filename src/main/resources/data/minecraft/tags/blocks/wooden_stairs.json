@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "#fredventure:green_wooden_stairs",
+    "#fredventure:red_wooden_stairs",
+    "#fredventure:black_wooden_stairs",
+    "#fredventure:brown_wooden_stairs",
+    "#fredventure:yellow_wooden_stairs",
+    "#fredventure:orange_wooden_stairs",
+    "#fredventure:white_wooden_stairs",
+    "#fredventure:pink_wooden_stairs",
+    "#fredventure:blue_wooden_stairs",
+    "#fredventure:cyan_wooden_stairs",
+    "#fredventure:gray_wooden_stairs",
+    "#fredventure:light_blue_wooden_stairs",
+    "#fredventure:light_gray_wooden_stairs",
+    "#fredventure:lime_wooden_stairs",
+    "#fredventure:purple_wooden_stairs",
+    "#fredventure:magenta_wooden_stairs"
+  ]
+}
