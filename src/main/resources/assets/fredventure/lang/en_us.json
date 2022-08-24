@@ -124,6 +124,8 @@
   "block.fredventure.magenta_wooden_trapdoor" : "Wooden Magenta Trapdoor",
   "block.fredventure.magenta_wooden_button" : "Wooden Magenta Button",
   "block.fredventure.magenta_wooden_pressure_plate" : "Wooden Magenta Pressure Plate",
+  "block.fredventure.blue_log" : "Blue Log",
+  "block.fredventure.stripped_blue_log" : "Stripped Blue Log",
   "fredventure:Tooltip/stone_crystal_extractor" : "It is said that the nasty goblins use this tool to extract stone crystals from very deep blocks",
   "fredventure:Tooltip/poison_trap_dirt" : "Deadly seemingly dirt block"
 }

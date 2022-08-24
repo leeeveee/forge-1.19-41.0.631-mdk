@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "textures": {
+    "bottom": "fredventure:block/magenta_wooden_door_bottom",
+    "top": "fredventure:block/magenta_wooden_door_top"
+  }
+}

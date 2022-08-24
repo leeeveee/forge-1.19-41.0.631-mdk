@@ -4,12 +4,17 @@ import net.GL_HF_GG.fredventure.block.costum.poison_trap_block;
 import net.GL_HF_GG.fredventure.fredventure;
 import net.GL_HF_GG.fredventure.item.ModCreativeModeTab;
 import net.GL_HF_GG.fredventure.item.ModItems;
+import net.GL_HF_GG.fredventure.item.costum.ModFlammableRotatedPillarBlock;
+import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.contents.TranslatableContents;
 import net.minecraft.world.item.*;
+import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -47,7 +52,23 @@ public class ModBlocks {
     public static final RegistryObject<Block> GRAY_PLANKS = registerBlock("gray_planks",
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(2f)), ModCreativeModeTab.COLORFUL_BLOCKS_TAB);
     public static final RegistryObject<Block> BLUE_PLANKS = registerBlock("blue_planks",
-            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(2f)), ModCreativeModeTab.COLORFUL_BLOCKS_TAB);
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).strength(2f))
+            {
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+                    return true;
+                }
+
+                @Override
+                public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+                    return 20;
+                }
+
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+                    return 5;
+                }
+                }, ModCreativeModeTab.COLORFUL_BLOCKS_TAB);
     public static final RegistryObject<Block> LIGHT_BLUE_PLANKS = registerBlock("light_blue_planks",
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(2f)), ModCreativeModeTab.COLORFUL_BLOCKS_TAB);
     public static final RegistryObject<Block> LIGHT_GRAY_PLANKS = registerBlock("light_gray_planks",
@@ -199,6 +220,10 @@ public class ModBlocks {
             () -> new DoorBlock( BlockBehaviour.Properties.of(Material.WOOD).strength(2f).noCollission()), ModCreativeModeTab.COLORFUL_BLOCKS_TAB);
     public static final RegistryObject<Block> MAGENTA_WOODEN_TRAPDOOR = registerBlock("magenta_wooden_trapdoor",
             () -> new TrapDoorBlock( BlockBehaviour.Properties.of(Material.WOOD).strength(2f).noCollission()), ModCreativeModeTab.COLORFUL_BLOCKS_TAB);
+    public static final RegistryObject<Block> BLUE_LOG = registerBlock("blue_log",
+            () -> new ModFlammableRotatedPillarBlock( BlockBehaviour.Properties.copy(Blocks.OAK_LOG).strength(2f).noCollission()), ModCreativeModeTab.COLORFUL_BLOCKS_TAB);
+    public static final RegistryObject<Block> STRIPPED_BLUE_LOG = registerBlock("stripped_blue_log",
+            () -> new ModFlammableRotatedPillarBlock( BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_LOG).strength(2f).noCollission()), ModCreativeModeTab.COLORFUL_BLOCKS_TAB);
 
 
 

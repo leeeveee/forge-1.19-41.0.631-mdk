@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_log",
+  "key": {
+    "#": {
+      "item": "minecraft:blue_dye"
+    },
+    "W": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "pattern": [
+    "WWW",
+    "W#W",
+    "WWW"
+  ],
+  "result": {
+    "count": 8,
+    "item": "fredventure:blue_log"
+  }
+}
