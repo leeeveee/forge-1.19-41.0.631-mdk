@@ -13,7 +13,7 @@ public class ModTags {
     public static class Blocks {
 
     public static final TagKey<Block> WOODEN_FENCE_GATE = tag("wooden_fence_gate");
-        public static final TagKey<Block> PLANKS = forgeTag("planks", "mineable/planks");
+
     public static  TagKey<Block> tag(String name){
         return BlockTags.create(new ResourceLocation(fredventure.MOD_ID, name));
     }
